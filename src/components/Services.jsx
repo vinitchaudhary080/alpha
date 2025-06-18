@@ -20,13 +20,7 @@ export default function Services() {
               Innovative digital solutions for your brand
             </h2>
           </div>
-          {/* <a
-            href="#all-services"
-            className="mt-6 lg:mt-0 inline-flex items-center px-6 py-3 bg-black text-white rounded-full text-base font-medium hover:bg-gray-800 transition"
-          >
-            Explore all services
-            <img src={ArrowIcon} alt="arrow" className="ml-2 w-4 h-4" />
-          </a> */}
+       
         </div>
 
         {/* Cards Grid */}
