@@ -101,8 +101,8 @@ export default function Footer() {
                     © Copyright 2025 ThetaGainers All Rights Reserved
                 </p>
                 <div className="flex space-x-6 mt-4 md:mt-0">
-                    <a href="/terms" className="hover:text-white">Teams & Conditions</a>
-                    <a href="/privacy" className="hover:text-white">Privacy Policy</a>
+                    <a href="#/terms" className="hover:text-white">Teams & Conditions</a>
+                    <a href="#/privacy" className="hover:text-white">Privacy Policy</a>
                 </div>
             </div>
         </footer>
