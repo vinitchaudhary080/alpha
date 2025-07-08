@@ -39,9 +39,22 @@ export default function Footer() {
                         Suscipit turpis etiam pellentesque diam dignissim ultrices at id. Pulvinar nisl lorem pretium magna. Lacus nam at nec.
                     </p>
                     <div className="flex space-x-4">
-                        <img src={InstagramIcon} alt="Instagram" className="w-5 h-5" />
-                        <img src={YouTubeIcon} alt="YouTube" className="w-5 h-5" />
+                        <a
+                            href="https://instagram.com/thetagainers"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={InstagramIcon} alt="Instagram" className="w-5 h-5" />
+                        </a>
+                        <a
+                            href="https://www.youtube.com/@ThetaGainers"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={YouTubeIcon} alt="YouTube" className="w-5 h-5" />
+                        </a>
                     </div>
+
                 </div>
 
                 {/* Our page */}
@@ -60,7 +73,7 @@ export default function Footer() {
                     <ul className="space-y-2">
                         <li><a href="#services" className="hover:text-white">Services</a></li>
                         <li><a href="#faq" className="hover:text-white">Faq</a></li>
-                        
+
                     </ul>
                 </div>
 
