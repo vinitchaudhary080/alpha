@@ -11,7 +11,7 @@ export default function Navbar() {
         <nav className="relative container mx-auto flex items-center justify-between py-6">
             {/* Logo */}
             <a href="#home">
-                <img src={Logo} alt="Artcraft Logo" className="h-8" />
+                <img src={Logo} alt="Artcraft Logo" className="h-16" />
             </a>
 
             {/* Hamburger / Close */}
