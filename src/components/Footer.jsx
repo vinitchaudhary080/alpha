@@ -3,7 +3,7 @@ import React from 'react'
 import ArrowIcon from '../assets/arrow-right.svg'
 import InstagramIcon from '../assets/instagram.svg'
 import YouTubeIcon from '../assets/youtube.svg'
-import LogoD from '../assets/logoD.svg'
+import LogoD from '../assets/logo.png'
 
 export default function Footer() {
     return (
@@ -85,11 +85,11 @@ export default function Footer() {
             {/* Bottom Bar */}
             <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between text-sm text-gray-500">
                 <p>
-                    Copyright ©
+                    © Copyright 2025 ThetaGainers All Rights Reserved
                 </p>
                 <div className="flex space-x-6 mt-4 md:mt-0">
-                    <a href="#changelog" className="hover:text-white">Teams & Conditions</a>
-                    <a href="#style-guide" className="hover:text-white">Privacy Policy</a>
+                    <a href="/terms" className="hover:text-white">Teams & Conditions</a>
+                    <a href="/privacy" className="hover:text-white">Privacy Policy</a>
                 </div>
             </div>
         </footer>

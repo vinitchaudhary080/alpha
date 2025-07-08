@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React, { useState } from 'react'
-import Logo from '../assets/logo.svg'
+import Logo from '../assets/logo.png'
 import MenuIcon from '../assets/menu.svg'
 import CloseIcon from '../assets/close.svg'
 
