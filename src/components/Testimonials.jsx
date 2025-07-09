@@ -21,12 +21,11 @@ export default function Testimonials() {
           {/* Card 1 */}
           <div className="relative bg-white border border-gray-200 rounded-2xl p-6">
             <p className="text-gray-900 mb-6">
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever"
+              “Working with Thetagainer was a game-changer for our product launch. Their UX redesign increased our conversion rate by 30% within the first month. The team was proactive, responsive, and truly understood our vision.”
             </p>
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-gray-900">Jessica Ren</h3>
-              <p className="text-sm text-gray-500">Assistant management</p>
+              <h3 className="text-lg font-semibold text-gray-900">Arjun Mehta</h3>
+              <p className="text-sm text-gray-500">Product Lead, FinTech Solutions</p>
             </div>
             <div className="absolute bottom-6 right-6">
               <div className="w-12 h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center">
@@ -36,14 +35,13 @@ export default function Testimonials() {
           </div>
 
           {/* Card 2 */}
-          <div className="relative bg-gray-50 rounded-2xl p-6">
+          <div className="relative bg-gray-50 rounded-2xl p-6 border border-gray-200">
             <p className="text-gray-900 mb-6">
-              "It is a long established fact that a reader will be distracted by the readable content
-              of a page when looking at its layout. The point of using"
+              “Thetagainer’s branding overhaul brought our identity to life. We saw a 50% uplift in social engagement and received countless compliments on our new look. Communication was seamless throughout the project.”
             </p>
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-gray-900">Mike Johnson</h3>
-              <p className="text-sm text-gray-500">Graphic designer</p>
+              <h3 className="text-lg font-semibold text-gray-900">Sneha Kapoor</h3>
+              <p className="text-sm text-gray-500">Brand Strategist, Creative Co.</p>
             </div>
             <div className="absolute bottom-6 right-6">
               <div className="w-12 h-12 bg-[#00CBA8] rounded-full flex items-center justify-center">
@@ -55,12 +53,11 @@ export default function Testimonials() {
           {/* Card 3 */}
           <div className="relative bg-white border border-gray-200 rounded-2xl p-6">
             <p className="text-gray-900 mb-6">
-              "Contrary to popular belief, Lorem Ipsum is not simply random text. Lorem Ipsum
-              It has roots in a piece of classical Latin literature from making it"
+              “Their digital marketing campaign drove a 3x increase in qualified leads for our SaaS platform. Thetagainer’s data-driven approach and creative ad designs delivered measurable results we couldn’t achieve before.”
             </p>
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-gray-900">Chris Evans</h3>
-              <p className="text-sm text-gray-500">Project manager</p>
+              <h3 className="text-lg font-semibold text-gray-900">Radhika Sharma</h3>
+              <p className="text-sm text-gray-500">Marketing Manager, SaaSify</p>
             </div>
             <div className="absolute bottom-6 right-6">
               <div className="w-12 h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center">

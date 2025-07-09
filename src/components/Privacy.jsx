@@ -38,16 +38,7 @@ export default function Privacy() {
           </p>
         </section>
 
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-700 mb-2">
-            Cookies
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            On this site, &quot;cookies&quot; are used. A cookie is a piece of data
-            that is kept on the hard disc of a site visitor to help us optimise your
-            access to our site and recognise repeat visitors.
-          </p>
-        </section>
+        
       </div>
     </div>
   );

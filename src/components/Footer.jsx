@@ -20,9 +20,14 @@ export default function Footer() {
                             placeholder="Enter email address"
                             className="w-full py-3 px-4 pr-12 border border-gray-600 rounded-full bg-transparent text-white placeholder-gray-400 focus:outline-none"
                         />
-                        <button className="absolute top-1/2 -translate-y-1/2 right-2 bg-[#00CBA8] p-3 rounded-full hover:bg-lime-200 transition">
+                        <a
+                            href="mailto:thetagainers@gmail.com"
+                            className="absolute top-1/2 -translate-y-1/2 right-2 bg-[#00CBA8] p-3 rounded-full hover:bg-lime-200 transition"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <img src={ArrowIcon} alt="submit" className="w-4 h-4" />
-                        </button>
+                        </a>
                     </div>
 
                 </div>
@@ -36,8 +41,7 @@ export default function Footer() {
                 <div className="space-y-4">
                     <img src={LogoD} alt="Alpha Logo" className="h-8" />
                     <p>
-                        Suscipit turpis etiam pellentesque diam dignissim ultrices at id. Pulvinar nisl lorem pretium magna. Lacus nam at nec.
-                    </p>
+                        We’re Theta Gainers — a full-service digital studio turning ideas into impactful products. From Web Development to UI/UX Design, Digital Marketing to Video Production, we craft experiences that convert.                    </p>
                     <div className="flex space-x-4">
                         <a
                             href="https://instagram.com/thetagainers"
@@ -80,15 +84,19 @@ export default function Footer() {
                 {/* Contact */}
                 <div>
                     <h4 className="mb-4 font-semibold text-white">Contact</h4>
-                    <p className="font-medium">258-658-8511</p>
+                    <p className="font-medium">+91-7669284138</p>
+                    <p className="font-medium">+91-7049850866</p>
                     <p className="font-medium">
                         <a href="mailto:info@mysite.com" className="hover:text-white">
-                            info@mysite.com
+                            thetagainers@gmail.com
                         </a>
                     </p>
                     <p className="mt-4">
                         Enkay Center Udyog vihar Sector 19,<br />
                         Gurugram
+                    </p>
+                    <p className="mt-4">
+                        GST :23AESPU7489P1Z3
                     </p>
                 </div>
             </div>

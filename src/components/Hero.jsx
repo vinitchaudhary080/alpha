@@ -4,6 +4,12 @@ import HeroBg    from '../assets/hero-bg.jpg'
 import ArrowIcon from '../assets/arrow-right.svg'
 
 export default function Hero() {
+  const scrollToServices = () => {
+    const el = document.getElementById('services')
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
   return (
     <section
       id="home"
@@ -17,10 +23,10 @@ export default function Hero() {
         {/* Paragraph + desktop-only button */}
         <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6">
           <p className="mt-8 lg:mt-0 text-white max-w-md mx-auto lg:mx-0">
-            Volutpat velit volutpat faucibus et consectetur. Est phasellus volutpat nunc vestibulum.
+            We’re Theta Gainers — a full-service digital studio turning ideas into impactful products. From Web Development to UI/UX Design, Digital Marketing to Video Production, we craft experiences that convert.
           </p>
           {/* desktop only */}
-          <button className="hidden lg:flex flex-col items-center justify-center w-40 h-40 bg-[#00CBA8] hover:bg-white/20 text-white rounded-full transition mx-auto lg:mx-0">
+          <button onClick={scrollToServices} className="hidden lg:flex flex-col items-center justify-center w-40 h-40 bg-[#00CBA8] hover:bg-white/20 text-white rounded-full transition mx-auto lg:mx-0">
             <span className="text-base font-medium">View more</span>
             <img src={ArrowIcon} alt="arrow" className="mt-2 w-5 h-5" />
           </button>

@@ -4,6 +4,12 @@ import ArrowIconD from '../assets/arrow-rightD.svg'
 import BannerImg from '../assets/banner.jpg'
 
 export default function Banner() {
+    const scrollToFooter = () => {
+    const footerEl = document.getElementById('footer')
+    if (footerEl) {
+      footerEl.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
   return (
     <section
       id="contact"
@@ -17,7 +23,7 @@ export default function Banner() {
             Digital Studio<br />
             Magic
           </h2>
-          <button className="flex items-center justify-center w-32 h-32 bg-black text-white rounded-full transition hover:bg-gray-800 mx-auto lg:mx-0">
+          <button onClick={scrollToFooter} className="flex items-center justify-center w-32 h-32 bg-black text-white rounded-full transition hover:bg-gray-800 mx-auto lg:mx-0">
             <span className="text-base font-medium">Contact us</span>
             <img src={ArrowIconD} alt="arrow" className="ml-2 w-4 h-4" />
           </button>
@@ -32,12 +38,12 @@ export default function Banner() {
               className="w-64 sm:w-80 md:w-96 rounded-xl transform -rotate-3 shadow-lg"
             />
             <div className="absolute bottom-4 left-4 text-white">
-              <p className="text-sm font-medium">0761-8523-398</p>
+             
               <a
-                href="mailto:example@digitalstudio.com"
+                href="mailto:thetagainers@gmail.com"
                 className="text-sm font-medium underline"
               >
-                example@digitalstudio.com
+                thetagainers@gmail.com
               </a>
             </div>
           </div>
