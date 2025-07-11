@@ -1,5 +1,6 @@
 // src/components/Footer.jsx
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ArrowIcon from '../assets/arrow-right.svg'
 import InstagramIcon from '../assets/instagram.svg'
 import YouTubeIcon from '../assets/youtube.svg'
@@ -109,8 +110,12 @@ export default function Footer() {
                     © Copyright 2025 ThetaGainers All Rights Reserved
                 </p>
                 <div className="flex space-x-6 mt-4 md:mt-0">
-                    <a href="/terms" className="hover:text-white">Teams & Conditions</a>
-                    <a href="/privacy" className="hover:text-white">Privacy Policy</a>
+                    <Link to="/terms" className="hover:text-white">
+                        Terms &amp; Conditions
+                    </Link>
+                    <Link to="/privacy" className="hover:text-white">
+                        Privacy Policy
+                    </Link>
                 </div>
             </div>
         </footer>
