@@ -5,6 +5,7 @@ import ArrowIcon from '../assets/arrow-right.svg'
 import InstagramIcon from '../assets/instagram.svg'
 import YouTubeIcon from '../assets/youtube.svg'
 import LogoD from '../assets/logo.png'
+import Algologo from '../assets/Algologo.png'
 
 export default function Footer() {
     return (
@@ -42,7 +43,7 @@ export default function Footer() {
                 <div className="space-y-4">
                     <img src={LogoD} alt="Alpha Logo" className="h-8" />
                     <p>
-                        We’re Theta Gainers — a full-service digital studio turning ideas into impactful products. From Web Development to UI/UX Design, Digital Marketing to Video Production, we craft experiences that convert.                    </p>
+                        We’re Algorooms — a consulting-first initiative powered by Theta Gainers. From mentorship programs and startup advisory to business strategy and growth consultation, we help individuals and teams scale smarter through guided execution, clarity, and experience-driven support.                   </p>
                     <div className="flex space-x-4">
                         <a
                             href="https://instagram.com/thetagainers"
@@ -62,26 +63,31 @@ export default function Footer() {
 
                 </div>
 
+                {/* Brand & Social */}
+                <div className="space-y-4">
+                    <img src={Algologo} alt="Algorooms logo" className="h-8" />
+                    <p>
+                        We’re Theta Gainers — a full-service digital studio turning ideas into impactful products. From Web Development to UI/UX Design, Digital Marketing to Video Production, we craft experiences that convert.                    </p>
+                    <div className="flex space-x-4">
+                     
+                    </div>
+
+                </div>
+
                 {/* Our page */}
                 <div>
-                    <h4 className="mb-4 font-semibold text-white">Our page</h4>
+                    <h4 className="mb-4 font-semibold text-white">Useful link</h4>
                     <ul className="space-y-2">
                         <li><a href="#home" className="hover:text-white">Home</a></li>
                         <li><a href="#about" className="hover:text-white">About us</a></li>
                         <li><a href="#contact" className="hover:text-white">Contact us</a></li>
-                    </ul>
-                </div>
-
-                {/* Useful link */}
-                <div>
-                    <h4 className="mb-4 font-semibold text-white">Useful link</h4>
-                    <ul className="space-y-2">
-                        <li><a href="#services" className="hover:text-white">Services</a></li>
+                         <li><a href="#services" className="hover:text-white">Services</a></li>
                         <li><a href="#faq" className="hover:text-white">Faq</a></li>
-
                     </ul>
                 </div>
 
+                
+              
                 {/* Contact */}
                 <div>
                     <h4 className="mb-4 font-semibold text-white">Contact</h4>
