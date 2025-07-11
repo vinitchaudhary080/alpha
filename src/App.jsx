@@ -1,6 +1,7 @@
 // src/App.jsx
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -15,47 +16,49 @@ import Privacy from './components/Privacy'
 
 export default function App() {
   return (
-    <Routes>
-      {/* Landing page */}
-      <Route
-        path="/"
-        element={
-          <>
-            <Navbar />
-            <Hero />
-            <About />
-            <Services />
-            <Banner />
-            <Testimonials />
-            <FAQ />
-            <Footer />
-          </>
-        }
-      />
+    <>   <ScrollToTop />
+      <Routes>
+        {/* Landing page */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Hero />
+              <About />
+              <Services />
+              <Banner />
+              <Testimonials />
+              <FAQ />
+              <Footer />
+            </>
+          }
+        />
 
-      {/* Terms & Conditions */}
-      <Route
-        path="/terms"
-        element={
-          <>
-            <Navbar />
-            <Terms />
-            <Footer />
-          </>
-        }
-      />
+        {/* Terms & Conditions */}
+        <Route
+          path="/terms"
+          element={
+            <>
+              <Navbar />
+              <Terms />
+              <Footer />
+            </>
+          }
+        />
 
-      {/* Privacy Policy */}
-      <Route
-        path="/privacy"
-        element={
-          <>
-            <Navbar />
-            <Privacy />
-            <Footer />
-          </>
-        }
-      />
-    </Routes>
+        {/* Privacy Policy */}
+        <Route
+          path="/privacy"
+          element={
+            <>
+              <Navbar />
+              <Privacy />
+              <Footer />
+            </>
+          }
+        />
+      </Routes>
+    </>
   )
 }
