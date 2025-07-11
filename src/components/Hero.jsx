@@ -23,7 +23,7 @@ export default function Hero() {
         {/* Paragraph + desktop-only button */}
         <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6">
           <p className="mt-8 lg:mt-0 text-white max-w-md mx-auto lg:mx-0">
-            We’re Theta Gainers — a full-service digital studio turning ideas into impactful products. From Web Development to UI/UX Design, Digital Marketing to Video Production, we craft experiences that convert.
+            We’re Algorooms — a full-service digital studio turning ideas into impactful products. From Web Development to UI/UX Design, Digital Marketing to Video Production, we craft experiences that convert.
           </p>
           {/* desktop only */}
           <button onClick={scrollToServices} className="hidden lg:flex flex-col items-center justify-center w-40 h-40 bg-[#00CBA8] hover:bg-white/20 text-white rounded-full transition mx-auto lg:mx-0">

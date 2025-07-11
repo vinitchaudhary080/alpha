@@ -9,7 +9,7 @@ export default function FAQ() {
     },
     {
       question: "How can I request a quote?",
-      answer: "Just reach out via our contact form or email us at example@digitalstudio.com—we’ll get back to you within 24 hours."
+      answer: "Just reach out via our contact form or email us at thetagainers@gmail.com—we’ll get back to you within 24 hours."
     },
     {
       question: "Do you offer post-launch support?",
